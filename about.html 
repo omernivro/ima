@@ -1,0 +1,25 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> JavaScript - about page </title>
+</head>
+<body>
+    <div class="social_b">
+        <a href="https://www.facebook.com/yulico.anatnivron"
+                                                    class="fa fa-facebook"></a>
+    </div>
+
+    <div class="topnav">
+        <a href="./my_works.html">My work</a>
+        <a href="./insp.html">Inspiration</a>
+        <a href="./contact.html">Contact</a>
+        <a class="active" href="./about.html">About</a>
+        <a href="./store_reco.html">Recommended shops</a>
+
+    </div>
+</body>
+</html>
+
+
+

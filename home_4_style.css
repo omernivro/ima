@@ -1,0 +1,83 @@
+
+
+.topnav {
+    float: left;
+    position:fixed;
+    top: 0;
+    /*margin:auto;*/
+    margin-left: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 50px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #BFBFBF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   color: #A1B3B6;
+   border-bottom: 2px solid #76A3AB;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #A1B3B6;
+}
+
+.social_b {
+  float: right;
+  margin-top: 10px;
+
+}
+
+.fa {
+/*    padding: 30px;*/
+    font-size: 50px;
+    width: 50px;
+    text-decoration: none;
+}
+
+#cycler{
+    float: left;
+    position:relative;
+}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+
+#cycler img{
+    margin-top: 46px;
+    /*margin-bottom: 30px;*/
+    width: 50%;
+    height: 600px;
+}
+
+#cycler_2{
+    float: left;
+    position:relative;
+}
+#cycler_2 img{position:absolute;z-index:1}
+#cycler_2 img.active{z-index:3}
+
+#cycler_2 img{
+    margin-top: 646px;
+    margin-left: 570px;
+    /*margin-bottom: 30px;*/
+    width: 50%;
+    height: 600px;
+}
+
+
+

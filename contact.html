@@ -1,0 +1,97 @@
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title><JavaScript - contact form ></title>
+
+    <link rel="stylesheet" type="text/css" href="./contact_style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+
+        function check_info(){
+            var subject_1 = document.getElementById('subject_1').value;
+            var lname = document.getElementById('lname').value;
+            var fname = document.getElementById('fname').value;
+            var email = document.getElementById('email').value;
+
+            if ((subject_1=="") || (lname=="") || (fname=="") || (email=="")) {
+                alert('Please fill in all fields')
+                return false;
+            }
+            else{
+                return true;
+
+            }
+        }
+    </script>
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+    <div class="social_b">
+        <a href="https://www.facebook.com/yulico.anatnivron"
+            class="fa fa-facebook"></a>
+    </div>
+
+    <div class="topnav">
+        <a href="./my_works.html">My work</a>
+        <a href="./insp.html">Inspiration</a>
+        <a href="./store_reco.html">Recommended shops</a>
+        <a class="active" href="./contact.html">Contact</a>
+        <a href="./about.html">About</a>
+    </div>
+
+     <form method="get" action="submission.html"
+     onsubmit="return check_info();">
+
+        <i class="fa fa-phone" style="font-size: 30px">
+            <img src="/Users/omer/Downloads/number.png ">
+        </i>
+
+        <div>
+            <label for="fname">Name</label>
+        </div>
+
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <input type="text" id="lname" name="lastname"
+        placeholder="Your last name..">
+
+        <div>
+            <label for="email">Email</label>
+        </div>
+
+        <input type="email" id="email" name="email" placeholder="Your email..">
+
+        <div>
+            <label for="subject">Subject</label>
+        </div>
+
+        <textarea id="subject_1" name="subject"
+            placeholder="Write something.."
+            style="height:200px ">
+        </textarea>
+
+<!-- submit is a select element -->
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</div>
+</body>
+
+</html>
+
+
+

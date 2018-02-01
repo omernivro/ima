@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> JavaScript - submitting forms</title>
+    <script type="text/javascript">
+
+        function check_info(){
+            var subject  = document.getElementById('subject').value;
+            if (subject=="") {
+                alert('Please fill in all fields')
+                return false;
+            }
+            else{
+                return true;
+
+            }
+        }
+    </script>>
+
+</head>
+<body>
+     <form method="get" action="submission.html" onsubmit="return check_info();">
+
+        <label for="subject">Subject</label>
+
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+         <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
