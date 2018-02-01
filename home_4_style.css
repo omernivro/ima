@@ -1,5 +1,38 @@
 
 
+.works {
+float: right;
+margin-right: 300px;
+margin-top: 270px;
+font-size: 29px;
+color: #BFBFBF;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: Georgia;
+font-style: italic;
+
+}
+
+
+
+
+.Inspiration {
+float: left;
+margin-left: 200px;
+margin-top: 870px;
+font-size: 29px;
+color: #BFBFBF;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: Georgia;
+font-style: italic;
+
+}
+
+
+
 .topnav {
     float: left;
     position:fixed;
@@ -73,7 +106,7 @@
 
 #cycler_2 img{
     margin-top: 646px;
-    margin-left: 570px;
+    margin-left: 250px;
     /*margin-bottom: 30px;*/
     width: 50%;
     height: 600px;
