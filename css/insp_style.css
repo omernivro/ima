@@ -5,20 +5,15 @@
 
 }
 #first {
-    margin-top: 60px;
 
     }
 
 #second {
-    margin-top: 10px;
 
 }
 #third {
 
-     margin-top: 10px;
     }
-
-
 
 .topnav {
     float: left;
@@ -32,6 +27,7 @@
     height: 50px;
     background-color: #FFFFFF;
     overflow: hidden;
+    z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -60,7 +56,7 @@
 .social_b {
   float: right;
   margin-top: 10px;
-
+    z-index: 6;
 }
 
 .fa {

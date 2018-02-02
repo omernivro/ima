@@ -66,7 +66,7 @@ input[type=text] {
     border: 1px solid #ccc; /* Gray border */
     margin-top: 16px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    font-family: georgia;
+    font-family: dyslexie;
 }
 
 
@@ -76,7 +76,7 @@ input[type=email] {
     border: 1px solid #ccc; /* Gray border */
     margin-top: 12px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    font-family: georgia;
+    font-family: dyslexie;
 }
 
 input[type = subject], textarea {
@@ -92,7 +92,7 @@ label {
     margin-top: 28px;
     margin-bottom: 4px;
     padding: 12px;
-    font-family: georgia;
+    font-family: dyslexie;
     color: grey;
 }
 
