@@ -6,6 +6,7 @@
 }*/
 #first {
     float: left;
+
     }
 
 #second {
@@ -53,7 +54,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    color: #A1B3B6;
+      color: #A1B3B6;
 }
 
 .social_b {
