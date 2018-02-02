@@ -1,11 +1,13 @@
 
 .topnav {
+    float: left;
     position:fixed;
     top: 0;
-    margin:auto;
+    /*margin:auto;*/
+    margin-left: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 90%;
     height: 50px;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -33,18 +35,15 @@
 .topnav a.active {
    color: #A1B3B6;
 }
-
 .social_b {
   float: right;
+  margin-top: 10px;
+
 }
 
-
-.fa-facebook {
-    padding: 10px;
+.fa {
+/*    padding: 30px;*/
     font-size: 50px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
 }
-
-
