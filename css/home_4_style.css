@@ -1,11 +1,8 @@
 
-
 .works {
 float: right;
 margin-right: 200px;
 margin-top: 270px;
-
-
 }
 
 .works a {
@@ -15,12 +12,9 @@ margin-top: 270px;
     /*padding: 14px 16px;*/
     text-decoration: none;
     font-size: 29px;
-    font-family: Georgia;
+    font-family: Dyslexie;
     font-style: italic;
 }
-
-
-
 
 .Inspiration {
 float: left;
@@ -29,24 +23,20 @@ margin-top: 870px;
 
 }
 
-
 .Inspiration a{
 float: left;
 font-size: 29px;
 color: #BFBFBF;
 text-align: center;
 text-decoration: none;
-font-family: Georgia;
+font-family: Dyslexie;
 font-style: italic;
 
 }
 
-
-
-
 .topnav {
     float: left;
-    position:fixed; z-index: 1;
+    position:fixed;z-index: 6;
     top: 0;
     /*margin:auto;*/
     margin-left: 0;
@@ -98,8 +88,8 @@ font-style: italic;
     float: left;
     position:relative;
 }
-#cycler img{position:absolute;z-index:2}
-#cycler img.active{z-index:4}
+#cycler img{position:absolute;z-index:3}
+#cycler img.active{z-index:5}
 
 #cycler img{
     margin-top: 46px;
@@ -112,8 +102,8 @@ font-style: italic;
     float: left;
     position:relative;
 }
-#cycler_2 img{position:absolute;z-index:2}
-#cycler_2 img.active{z-index:4}
+#cycler_2 img{position:absolute;z-index:3}
+#cycler_2 img.active{z-index:5}
 
 #cycler_2 img{
     margin-top: 646px;
