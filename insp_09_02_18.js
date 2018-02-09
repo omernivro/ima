@@ -4,7 +4,6 @@ window.onload = function() {
     var canvas_y = [];
     var c = [];
 
-    alert($('canvas').length )
     for (var i = $('canvas').length ; i > 0; i--) {
         c[i] = document.getElementById("myCanvas" + i);
         c[i].style.position = "absolute";
@@ -177,7 +176,6 @@ window.onload = function() {
         c[i].style.top = parseInt(canvas_y[i], 10) + "px";
         var ctx = c[i].getContext("2d");
         var img = document.getElementById(i);
-        alert(img.id)
         ctx.drawImage(img, 0, 0);
 
     }
