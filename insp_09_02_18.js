@@ -3,14 +3,10 @@ window.onload = function() {
     var canvas_x = [];
     var canvas_y = [];
     var c = [];
-    var ctx = [];
-    var img = [];
 
     alert($('canvas').length )
     for (var i = $('canvas').length ; i > 0; i--) {
         c[i] = document.getElementById("myCanvas" + i);
-        ctx[i] = c[i].getContext("2d");
-        img[i] = document.getElementById(i);
         c[i].style.position = "absolute";
     }
 
@@ -179,8 +175,12 @@ window.onload = function() {
     for (var i = $('canvas').length ; i > 0; i--) {
         c[i].style.left = parseInt(canvas_x[i], 10) + "px";
         c[i].style.top = parseInt(canvas_y[i], 10) + "px";
-        ctx[i].drawImage(img[i], 0, 0, c[i].style.width, c[i].style.height);
+        var ctx = c[i].getContext("2d");
+        var img = document.getElementById(i);
+        alert(img.id)
+        ctx.drawImage(img, 0, 0);
+
     }
 
-
+        alert('im here')
 };
