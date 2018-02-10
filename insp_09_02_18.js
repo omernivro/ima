@@ -172,11 +172,11 @@ window.onload = function() {
 
 
     for (var i = $('canvas').length ; i > 0; i--) {
-        c[i].style.left = parseInt(canvas_x[i], 10) + "px";
-        c[i].style.top = parseInt(canvas_y[i], 10) + "px";
+        c[i].style.left = parseInt(canvas_x[i], 10) ;
+        c[i].style.top = parseInt(canvas_y[i], 10) ;
         var ctx = c[i].getContext("2d");
         var img = document.getElementById(i);
-        ctx.drawImage(img, 0, 0);
+        ctx.drawImage(img, 0, 0, c[i].width, c[i].height);
 
     }
 
